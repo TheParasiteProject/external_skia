@@ -116,6 +116,10 @@ cc_defaults {
         "-O3",
     ],
 
+
+    lto: {
+        thin: true,
+    },
     whole_program_vtables: true,
 
     export_include_dirs: [
