@@ -121,6 +121,7 @@ cc_defaults {
         thin: true,
     },
     whole_program_vtables: true,
+    lto_Instr100: true,
 
     export_include_dirs: [
         "",
