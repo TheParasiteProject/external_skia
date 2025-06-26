@@ -116,6 +116,8 @@ cc_defaults {
         "-O3",
     ],
 
+    whole_program_vtables: true,
+
     export_include_dirs: [
         "",
         "client_utils/android/",
